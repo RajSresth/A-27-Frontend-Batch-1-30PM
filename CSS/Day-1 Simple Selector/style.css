@@ -1,0 +1,28 @@
+*{
+   color: sienna; 
+}
+
+/*1. Tagname Selector
+div{
+    color: red;
+}
+ */
+/*2. Id Selector
+#d1{
+    color: blue;
+}
+
+ */
+
+/*3. class selector 
+.p1{
+    color: darkcyan;
+}
+*/
+
+#d1,
+.p1{
+    color: blue;
+}
+
+

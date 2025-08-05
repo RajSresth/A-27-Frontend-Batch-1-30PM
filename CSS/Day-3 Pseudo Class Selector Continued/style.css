@@ -1,0 +1,23 @@
+/* Not visited */
+a:link {
+  color: violet;
+}
+
+/* Active */
+a:active {
+  color: wheat;
+}
+/* Visited */
+a:visited {
+  color: orange;
+}
+button{
+     padding: 5px 25px;
+}
+button:hover { 
+  color: white;
+  background: black;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}

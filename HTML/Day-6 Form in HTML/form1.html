@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      sup {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" >
+      Name <input 
+      type="text" 
+      name="username" 
+      placeholder="Enter fullname"
+      autofocus
+      minlength="2"
+      maxlength="16"
+      />
+      <br /><br />
+
+      Email<sup>*</sup>
+      <input
+       type="email"
+       name="emailId"
+       placeholder="xyz@gmail.com"
+       required
+        />
+      <br /><br />
+
+      Password<sup>*</sup>
+      <input
+        type="password"
+        name="password"
+        placeholder="at least 8 characters"
+        required
+      />
+      <br /><br />
+
+      Company Name
+      <input 
+      type="text" 
+      name="company" 
+      value="ITC Infotech" 
+      disabled />
+      <br /><br />
+
+      Owner Name
+      <input 
+      type="text" 
+      value="Deepak Singh" 
+      name="ownerName" 
+      readonly />
+      <br /><br />
+
+      <button type="submit">Login</button>
+      <button type="reset">Cancel</button>
+    </form>
+  </body>
+</html>

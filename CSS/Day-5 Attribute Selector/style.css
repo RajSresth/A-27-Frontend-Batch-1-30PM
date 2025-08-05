@@ -1,0 +1,17 @@
+/*Attribute Selector*/
+ div[title^="d2"]{
+    color: red;
+} 
+
+div[title$="div2"]{
+    color: red;
+}
+
+div[title~="c1"]
+{
+    color: blue;
+}
+
+div[title*="div2"]{
+    color: blue;
+}

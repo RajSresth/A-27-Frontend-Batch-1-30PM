@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    padding-top: 100px;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .center{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+header nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0px 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 7px 25px;
+    border-radius:5px ;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header nav a:hover{
+    background-color: white;
+    color: black;
+
+}
+header .icon-container{
+    color: white;
+    cursor: pointer;
+    padding: 7px 25px;
+    
+}
+header .icon-container a{
+    padding: initial;
+}
+
+header .icon-container a:last-of-type:hover{
+    color: white;
+    background-color: transparent;
+}
+
+/* ----------------------------home------------------------------- */
+section{
+    min-height:calc(100vh - 100px);
+}
+
+#home{
+    background-color: #dcc5b9;
+    background-image: url('./src/pic-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right -350px;
+}
+
+#home .center{
+    margin: auto;
+    width: 1100px;
+    min-height:inherit;  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+#home .content{
+    width: 38%;
+    height: fit-content;
+    /* background-color: cyan; */
+}
+
+#home .content h1{
+    font-size: 70px;
+}
+
+#home .content h4{
+    font-weight: 500;
+    margin-block:10px 25px;
+}
+
+#home .content a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+
+
+/*----------------------------Product Section-----------------------*/
+
+
+#product .center{
+    width: 1100px;
+    min-height: inherit;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+#product .top h2{
+    font-size: 50px;
+}
+
+#product .top p{
+    color: rgb(129, 128, 128);
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+
+#product .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#product .card{
+    width: 280px;
+    height: 330px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#product .card .profile{
+    width: 100%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#product .c1 .profile{
+    background-image: url('./src/Shirt1.jpg');
+}
+
+#product .c2 .profile{
+    background-image: url('./src/Shirt2.jpg');
+}
+
+#product .c3 .profile{
+    background-image: url('./src/Shirt3.jpg');
+}
+
+#product .card .about{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#product .about button{
+    width: 90%;
+    padding: 7px 0px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #222;
+    color: white;
+}

@@ -1,0 +1,29 @@
+/* article > p{
+    color: red;
+}
+
+article > .s1{
+    color: blue;
+}
+
+article > main > section > div > p{
+    color: deeppink;
+}
+
+article .p2{
+    color: sienna;
+}
+*/
+
+/*! Immediate Sibling Selector
+article > h2 + span + div{
+    color: yellowgreen;
+}
+     */
+
+/* ! General Sibling Selector*/
+
+article > h2 ~ .p2
+{
+    color: blue;
+}

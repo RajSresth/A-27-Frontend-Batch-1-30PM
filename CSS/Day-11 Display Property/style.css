@@ -1,0 +1,36 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+.c1{
+    background-color: violet;
+}
+
+.c2{
+    background-color: tomato;
+    /* display: none; */
+    visibility: hidden;
+}
+
+.c3{
+    background-color: turquoise;    
+}

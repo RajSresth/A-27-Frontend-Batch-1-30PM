@@ -1,0 +1,36 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+section{
+    min-height: 80vh; 
+    background-color: wheat;
+    display: flex;
+}
+
+section .left{
+    min-width: 200px;
+    flex-grow: 60;
+    flex-shrink: 10;
+    min-height:inherit;
+    background-color: coral;
+}
+
+section .right{
+    min-width: 200px;
+   flex-grow: 40;
+   flex-shrink: 1;
+    min-height: inherit;
+    background-color: springgreen;
+}

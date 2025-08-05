@@ -1,0 +1,88 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+section{
+    padding-inline:100px ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 280px;
+    height: 330px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px rgb(224, 222, 222);
+}
+
+.card .profile{
+    height:70%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-bottom: 10px;
+}
+
+.c1 .profile{
+     background-image: url('./src/Shirt1.jpg');
+}
+
+.c2 .profile{
+    background-image: url('./src/Shirt2.jpg');
+}
+.c3 .profile{
+    background-image: url('./src/Shirt3.jpg');
+}
+.c4 .profile{
+    background-image: url('./src/Shirt4.jpg');
+}
+
+.card .about{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .about button{
+    width: 80%;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.card button:first-of-type{
+    background-color: rgb(140, 65, 214);
+}
+
+.card button:first-of-type:hover{
+   background-color: rgb(89, 36, 142); 
+}
+
+
+.card  button:last-of-type{
+    background-color: rgb(24, 141, 225);
+}
+
+.card  button:last-of-type:hover
+{
+    background-color: rgb(20, 108, 171);
+}

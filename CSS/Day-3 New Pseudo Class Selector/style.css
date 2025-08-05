@@ -1,0 +1,37 @@
+/* :has() 
+
+div:has(p){
+    background:red;
+    color: white;
+}
+
+
+:is(h1,h2,h3){
+    background-color: tomato;
+}
+
+:where(h1,h2,h3){
+    background-color: blue;
+}
+*/
+
+/* li:has(a>img){
+    background:red ;
+} */
+
+/* 
+div:not(:has(p))
+{
+    background: rebeccapurple;
+} */
+
+
+/* li:not(:has(a>img))
+{
+    background-color: coral;
+} */
+
+div:not(:has(.p2))
+{
+    background-color: darkgoldenrod     ;
+}

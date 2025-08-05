@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  border: 2px solid black;
+  width: 1004px;
+  height: 600px;
+  background-color: wheat;
+  /* padding: 50px 100px; */
+
+  /* grid-template-columns: repeat(2, minmax(150px, 400px)); */
+  /* grid-template-columns: repeat(2, 400px); */
+
+  /* grid-template-columns: max-content min-content; */
+  
+  /* grid-template-columns: repeat(auto-fit,1fr); */
+  display: grid;
+  grid-template-rows: repeat(2, minmax(150px, 200px));
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+
+section .card {
+  width: 150px;
+  height: 150px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c1 {
+  background-color: violet;
+}
+
+.c2 {
+  background-color: turquoise;
+}

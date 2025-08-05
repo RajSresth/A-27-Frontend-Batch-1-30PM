@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+/* h1::first-letter{
+    color: red;
+}
+
+div::first-line{
+    color: deeppink;
+}
+
+
+h1::selection{
+    background-color: green;
+    color: white;
+}
+
+div::selection{
+    background-color: lightgrey;
+    color: black;
+} */
+
+
+ul>li::marker{
+    /* content: "# "; */
+    content: "🤍";
+    font-weight: bold;
+}
+
+h1::before{
+    content: "Mahendra ";
+    color: orange;
+}
+
+h1{
+    color: white;
+}
+
+h1::after{
+    content: " Dhoni";
+    color: green;
+}

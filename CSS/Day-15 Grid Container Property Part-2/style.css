@@ -1,0 +1,53 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+section{
+    min-height: inherit;
+    background-color: wheat;
+
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    grid-auto-flow: column;
+    grid-auto-rows: 250px;
+    grid-auto-columns: 300px;
+}
+
+section .card{
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c1{
+    background-color: violet;
+}
+
+.c2{
+    background-color: turquoise;
+}
+.c3{
+    background-color: tomato;
+}
+.c4{
+    background-color: dodgerblue;
+}
+
+.c5{
+    background-color: sienna;
+}

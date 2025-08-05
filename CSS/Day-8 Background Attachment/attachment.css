@@ -1,0 +1,49 @@
+/* Parallex Effect */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    /* scroll, fixed */
+}
+
+.s1{
+    background-image: url('https://content.presspage.com/uploads/1523/f2d90f57-531b-4e28-add8-90171eb0a345/1920_fe-001.jpg?x=1732560151998');
+        background-attachment: fixed;
+
+}
+
+.s2{
+    background-image: url('https://autoncell.blr1.cdn.digitaloceanspaces.com/private-uploads/news-1684231564637-9533d.jpg');
+}
+.s3{
+    background-image: url('https://www.mercedes-benz.com/content/dam/brandhub/assets/vehicles/world-of-g-class/stage/08-2024/images/mercedes-benz-brandhub-g-hub-stage-3840x2160-08-2024.jpg/_jcr_content/renditions/image-crop-default.jpeg/1730311688317.jpg?im=Resize=(1680);Crop,rect=(0,0,1680,945)');
+        background-attachment: fixed;
+
+}
+
+.s4{
+    background-image: url('https://cdn-hednb.nitrocdn.com/yYolPsxkHfeoqRKSyqGQlaFpLZMHhVYI/assets/images/optimized/rev-bfb74a6/hpe-photos.s3.us-east-2.amazonaws.com/wp-content/uploads/2025/02/Hennessey-2024-Ford-Mustang-GT-for-Sale-Black-0554-4.jpg');
+}
+.s5{
+    background-image: url('https://imgd.aeplcdn.com/642x361/n/cw/ec/132201/audi-r8-right-front-three-quarter5.jpeg?isig=0&q=75');
+        background-attachment: fixed;
+
+}
+.s6{
+    background-image: url('https://images.hindustantimes.com/auto/img/2024/07/04/1600x900/Mahindra_Scorpio-N_Z8_Select_1708599378637_1720080366980.jpg');
+}

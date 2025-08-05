@@ -1,0 +1,27 @@
+article{
+    background-color: lightgray;
+
+    > p{
+        background-color: red;
+    }
+
+    h2{
+        background-color: cyan;
+    }
+
+    main > p{
+            background-color: orange;
+    }
+
+
+    div:last-of-type{
+        background-color: deeppink;
+    }
+
+    span:nth-of-type(2)
+    {
+        background-color: yellow;
+    }
+}
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form (Part-2)</title>
+    <style>
+        fieldset{
+            width: 150px;
+        }
+
+        sup{
+            font-size: 15px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend align="center">Login Form</legend>
+
+            <label for="inp1">
+                Name<sup>*</sup> 
+                <input 
+                    type="text"
+                    name="username"
+                    id="inp1"
+                    placeholder="Enter fullname"
+                    required>
+                    <br><br>
+            </label>
+
+            <label for="inp2">
+                Email<sup>*</sup>
+                <input 
+                    type="email"
+                    name="emailId"
+                    id="inp2"
+                    placeholder="xyz@gmail.com"
+                    required>
+                    <br><br>
+            </label>
+
+            <label for="inp3">
+                Password<sup>*</sup> 
+                <input 
+                    type="password"
+                    name="password"
+                    id="inp3"
+                    placeholder="at least 8 characters"
+                    required>
+                    <br><br>
+            </label>
+
+            <label for="inp4">
+                Yop 
+                <select name="userYOP" id="inp4">
+                    <option value="" selected disabled>--Select Your Yop--</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                </select>
+                <br><br>
+            </label>
+
+            <label for="inp5">
+                State
+                <input
+                type="text"
+                id="inp5"
+                name="YOP"
+                list="myList"
+                placeholder="State Name"
+                required>
+
+                <datalist id="myList">
+                    <option value="Uttar Pradesh"></option>
+                    <option value="Uttarakhand"></option>
+                    <option value="Maharashtra"></option>
+                    <option value="Madhya Pradesh"></option>
+                    <option value="Arunachal Pradesh"></option>
+                </datalist>
+                <br><br>
+            </label>
+
+            <label for="inp6">
+                Feedback 
+                <textarea 
+                name="userfeedback" 
+                id="inp6"  
+                placeholder="Write Something..!"
+                required
+                rows="10"
+                cols="30"
+                ></textarea>
+                <br><br>
+            </label>
+
+            <button type="submit">Login</button>
+            <button type="reset">Cancel</button>
+        </fieldset>
+    </form>
+</body>
+</html>

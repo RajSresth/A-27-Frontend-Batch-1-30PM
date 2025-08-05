@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    font-size: 70px;
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+}
+
+h2{
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+h3{
+    font-size: 40px;
+     font-family: "Roboto", sans-serif;
+     font-weight: 100;
+}
