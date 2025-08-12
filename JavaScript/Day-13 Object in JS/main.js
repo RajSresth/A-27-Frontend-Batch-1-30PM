@@ -14,7 +14,7 @@ console.log(obj);
 
 /**
  * ! By using new keyword and custom contructor function
- */
+
 
 function CreateObject (username, age, city)
 {
@@ -24,4 +24,21 @@ function CreateObject (username, age, city)
 }
 
 const u1= new CreateObject("Ashish", 22, "Indore")
+ */
 
+/**
+ * ! By using Class
+ */
+
+class Car
+{
+    constructor(name, price, color)
+    {
+        this.carname=name;
+        this.price=price;
+        this.color=color;
+    }
+}
+
+const c1= new Car("Scorpio-n",2800000,"Black");
+console.log("c1:",c1);
