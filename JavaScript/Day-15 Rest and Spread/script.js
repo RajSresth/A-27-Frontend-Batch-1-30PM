@@ -1,20 +1,22 @@
-const user={
-    username:"Tinku",
-    age:22,
-    city:"Noida",
-    pin:201301
-}
+import {obj, employee} from "./rest.js";
+import company from "./spread.js";
+import personal from "./sum.js"
 
-const {username ,...obj} = user;
+// const [e1, ...extra]=employee;
+// console.log(extra)
 
-console.log(username)
-console.log(obj)
+personal.gender="Male";
+console.log(personal);
+
+const user= { 
+                username:"Satyam",
+                skills:["React","Node","Express","Mongo"],
+                city:"Noida",
+                
+                ...personal,
+                ...company
+            }
 
 
-const movies=["dhamaal","dhol","welcome","php","housefull"]
 
-const [m1,...m2]= movies;
-
-console.log(m1)
-console.log(m2)
-
+console.log("user:",user)
