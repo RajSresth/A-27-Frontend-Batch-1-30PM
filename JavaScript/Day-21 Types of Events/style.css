@@ -1,0 +1,87 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    font-size: 10px;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form{
+    width: 450px;
+    height:fit-content;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 2px rgb(155, 155, 155);
+    /* text-align: center; */
+    padding:2rem 4rem;
+}
+
+
+form label,span{
+    font-size: 1.6rem;
+}
+
+form sup{
+    color: crimson;
+    font-size: 1.8rem;
+}
+.form-head h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.form-head span{
+    color: rgb(92, 91, 91);
+}
+
+.form-body{
+    margin-bottom: 2rem;
+}
+
+.form-body input{
+    width: 100%;
+    padding: 1rem 1.4rem;
+    font-size: 1.5rem;
+}
+
+.form-body p{
+    height: 20px;
+    background-color: blue;
+}
+
+.form-foot{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-foot button{
+     width: 100%;
+    padding: 1rem 1.6rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    background-color: #222;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    outline: none;
+}

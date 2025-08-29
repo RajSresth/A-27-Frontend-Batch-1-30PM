@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Events in JS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <form action="#" autocomplete="off">
+        <div class="form-head">
+            <h2>Signin</h2>
+            <span>It only takes 3 sec.</span>
+        </div>
+
+        <div class="form-body">
+            <label for="inp1">
+                Username<sup>*</sup>
+                <input
+                type="text" 
+                id="inp1"
+                name="username"
+                placeholder="Enter fullname"
+                required
+                autofocus
+                >
+                <p class="nameerror"></p>
+            </label>
+
+            <label for="inp2">
+                Email<sup>*</sup> 
+                <input
+                type="email" 
+                id="inp2"
+                name="emailId"
+                placeholder="xyz@gmail.com"
+                required
+                >
+                <p class="emailerror"></p>
+            </label>
+
+            <label for="inp3">
+                Password<sup>*</sup> 
+                <input
+                type="password" 
+                id="inp3"
+                name="password"
+                placeholder="at least 8 character"
+                required
+                >
+                <p class="passworderror"></p>
+            </label>
+        </div>
+
+        <div class="form-foot">
+            <button type="submit">SignIn</button>
+            <button type="reset">Cancel</button>
+            <span>Already have an account?
+                <a href="login.html">Login</a>
+            </span>
+        </div>
+    </form>
+    
+    <script src="formEvents.js"></script>
+</body>
+</html>
