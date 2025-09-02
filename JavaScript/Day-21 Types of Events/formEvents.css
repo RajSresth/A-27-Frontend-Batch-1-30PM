@@ -60,10 +60,7 @@ form sup{
     font-size: 1.5rem;
 }
 
-.form-body p{
-    height: 20px;
-    background-color: blue;
-}
+
 
 .form-foot{
     display: flex;
@@ -84,4 +81,35 @@ form sup{
     border: none;
     color: white;
     outline: none;
+}
+
+
+
+form .form-body label:nth-of-type(3) div{
+    position: relative;
+}
+
+
+form #togglePasswordBtn{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(50%);
+    z-index: 2;
+    color: black;
+    cursor: pointer;
+}
+
+.form-body .invalid{
+    height: 20px;
+    color: red;
+    padding:0px 0px 0px 5px ;
+    visibility: visible;
+}
+
+.form-body .valid{
+    height: 20px;
+    color: transparent;
+    padding:0px 0px 0px 5px ;
+    visibility: hidden;
 }

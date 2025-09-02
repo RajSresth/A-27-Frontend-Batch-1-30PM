@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Events in JS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formEvents.css">
 
     <!-- Google Fonts CDN Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awsome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -30,7 +33,6 @@
                 required
                 autofocus
                 >
-                <p class="nameerror"></p>
             </label>
 
             <label for="inp2">
@@ -42,19 +44,27 @@
                 placeholder="xyz@gmail.com"
                 required
                 >
-                <p class="emailerror"></p>
+                <p id="emailError" class="valid"></p>
             </label>
 
             <label for="inp3">
-                Password<sup>*</sup> 
-                <input
-                type="password" 
-                id="inp3"
-                name="password"
-                placeholder="at least 8 character"
-                required
-                >
-                <p class="passworderror"></p>
+                <div>
+                    Password<sup>*</sup> 
+                    <input
+                    type="password" 
+                    id="inp3"
+                    name="password"
+                    placeholder="at least 8 character"
+                    
+                    required
+                    >
+
+                    
+                        <i id="togglePasswordBtn" class="fa-solid fa-eye"></i>
+                        <!-- <i class="fa-solid fa-eye-slash"></i>            -->
+
+                </div>
+                <p id="passwordError" class="valid"></p>
             </label>
         </div>
 
