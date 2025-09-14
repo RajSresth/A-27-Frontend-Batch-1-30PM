@@ -29,9 +29,53 @@ btn.addEventListener("click", function(){
 /**
  * ! classList.add()
  * ! classList.remove()
- */
-
 
 btn.addEventListener("click", () => {
-    div.classList.add("gradient");
+    const x = div.classList.contains("gradient");
+    if(x){
+        div.classList.remove("gradient");
+    }
+    else{
+        div.classList.add("gradient");
+    }
+}) */
+
+/**
+ * ! Most Important Method
+ * ! classList.toggle()
+btn.addEventListener("click", () => {
+    div.classList.toggle("gradient");
+})
+*/
+
+/**
+ * ! classList.forEach()
+
+btn.addEventListener("click", function (){
+    div.classList.forEach((element,index)=>{
+          div.classList.replace(element, element+1)         
+    
+    })
+})
+     */
+
+/**
+ * ! classList.entries()
+ * ! classList.values()
+ * ! classList.keys()
+ */
+
+btn.addEventListener("click",() =>{
+
+    const x= Array.from( div.classList.entries());
+    const y= Array.from( div.classList.values());
+    const z= Array.from(div.classList.keys());
+;
+    console.log("classList.entries():", x);
+    console.log("classList.values():", y);
+    console.log("classList.keys():",z);
+
+
+    // console.log(div.classList.supports("validToken"))
+    // console.log(div.classList.item(0))
 })

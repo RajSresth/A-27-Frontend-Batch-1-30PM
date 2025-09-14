@@ -23,7 +23,9 @@ body{
     min-height:400px;
     padding: 70px;   
     text-align: center;
-    
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 4px 2px rgb(156, 155, 155);
 }
 
 .container.light{
@@ -93,6 +95,6 @@ button.light{
 
 
 .container.gradient{
-background: #f224b1;
-background: linear-gradient(227deg,rgba(242, 36, 177, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(10, 206, 250, 1) 100%);
+    background: #f224b1;
+    background: linear-gradient(227deg,rgba(242, 36, 177, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(10, 206, 250, 1) 100%);
 }
