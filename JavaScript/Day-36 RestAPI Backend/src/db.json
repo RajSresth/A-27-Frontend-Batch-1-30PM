@@ -1,0 +1,63 @@
+{
+    "users":[
+        {
+            "username":"Gaurav Kumar Golu",
+            "email":"gaurav@gmail.com",
+            "city":"Patna",
+            "course":"Java Fullstack"
+        },
+        {
+            "username":"Shreya Singh",
+            "email":"shreya@gmail.com",
+            "city":"Jaunpur",
+            "course":"Python Fullstack"
+        },
+        {
+            "username":"Bhanu Pratap",
+            "email":"bhanu@gmail.com",
+            "city":"Firozabad",
+            "course":"MERN Stack"
+        }
+    ],
+    "courses":[
+        {
+            "courseName":"Java Fullstack",
+            "price":"35000",
+            "duration":"6 Months"
+        },
+        {
+            "courseName":"Python Fullstack",
+            "price":"35000",
+            "duration":"6 Months"
+        },
+        {
+            "courseName":"MERN Stack",
+            "price":"35000",
+            "duration":"6 Months"
+        },
+        {
+            "courseName":"Software Testing",
+            "price":"35000",
+            "duration":"4 Months"
+        },
+        {
+            "courseName":"Data Analyst",
+            "price":"35000",
+            "duration":"4 Months"
+        }        
+    ],
+    "Instructors":[
+        {
+            "trainer":"Shambu Sir",
+            "subject":"Java & DSA"
+        },
+        {
+            "trainer":"Rachna Mam",
+            "subject":"Python"
+        },
+        {
+            "trainer":"Sarvesh Sir",
+            "subject":"Web & React"
+        }
+    ]
+}
