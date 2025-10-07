@@ -57,20 +57,22 @@ body{
 }
 
 
-.wrapper ul{
+.wrapper ul.todolist{
     list-style: none;
-   
     height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 10px 0px;
 }
 
-.wrapper ul li{
-     background-color:rgb(231, 230, 230);
+.wrapper ul.todolist li{
+    background-color:rgb(231, 230, 230);
     font-size: 15px;
     padding: 12px 20px;  
     letter-spacing: 1px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 

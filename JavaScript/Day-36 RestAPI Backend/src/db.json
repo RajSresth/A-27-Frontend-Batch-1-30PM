@@ -1,5 +1,6 @@
 {
     "todos" : [
-        {"id" : 1, "task": "Go Gym" , "complete":false}
+        {"id" : 1, "task": "Go Gym" , "complete":false},
+        {"id" : 2, "task": "Take batch" , "complete":false}
     ]
 }
