@@ -1,6 +1,21 @@
 {
-    "todos" : [
-        {"id" : 1, "task": "Go Gym" , "complete":false},
-        {"id" : 2, "task": "Take batch" , "complete":false}
-    ]
+  "todos": [
+    {
+      "id": "0a12",
+      "task": "No Junk Food",
+      "complete": false,
+      "completed": true
+    },
+    {
+      "id": "791d",
+      "task": "Drink Water",
+      "complete": false,
+      "completed": true
+    },
+    {
+      "id": "770c",
+      "task": "Read Book",
+      "complete": false
+    }
+  ]
 }
