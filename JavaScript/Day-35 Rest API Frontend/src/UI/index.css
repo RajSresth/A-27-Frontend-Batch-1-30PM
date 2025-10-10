@@ -25,6 +25,7 @@ body{
     display: flex;
     flex-flow: column wrap;
     background-color: whitesmoke;
+    border-radius: 20px;
 }
 
 
@@ -66,8 +67,9 @@ body{
 }
 
 .wrapper ul.todolist li{
-    background-color:rgb(231, 230, 230);
-    font-size: 15px;
+    border:1.75px solid rgb(179, 177, 177);
+    border-radius: 10px;
+    font-size: 18px;
     padding: 12px 20px;  
     letter-spacing: 1px;  
     display: flex;
@@ -78,12 +80,21 @@ body{
 
 .wrapper input[type=checkbox]{
     margin-right: 18px;
+    width: 20px;
+    height: 20px; 
     accent-color: black;
 }
 
 
-li.completed .todo-title {
+li.done .todoTitle {
   color: #aaa;
   text-decoration: line-through;
+ 
+}
+
+li .left{
+ display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 

@@ -1,21 +1,14 @@
 {
   "todos": [
     {
-      "id": "0a12",
-      "task": "No Junk Food",
-      "complete": false,
-      "completed": true
-    },
-    {
+      "task": "Drink water",
       "id": "791d",
-      "task": "Drink Water",
-      "complete": false,
       "completed": true
     },
     {
-      "id": "770c",
-      "task": "Read Book",
-      "complete": false
+      "id": "e619",
+      "task": "Junk Food",
+      "completed": true
     }
   ]
 }
